@@ -11,8 +11,8 @@ class controller_acm extends controller
     {
     	$viewdata = $this->do_default_viewdata();		
 		$content = $this->model->get_viewdata();
-		$viewdata["pagetitle"] = "Заголовок страницы";
-        $viewdata["content"] = $this->view->show_view("view_acm", $content);		
+		$viewdata["pagetitle"] = "АСМ";
+        $viewdata["content"] = $this->view->show_view("view_acm", $content, FALSE, HOMEDIR."/js/js_script.js");	
         $this->view->show_view('view_template', $viewdata, true);
 
     }

@@ -1,4 +1,3 @@
-<ul><li><a href="<?echo '/acm'?>">ACM</a></li></ul> 
-<ul><li><a href="<?echo '/apm'?>">АПМ</a></li></ul>
-<ul><li><a href="<?echo '/button3'?>">Button3</a></li></ul>
-<ul><li><a href="<?echo '/button4'?>">Button4</a></li></ul>
+<a href="<?echo '/about'?>"><ul><li>О проекте</li></ul></a>
+<a href="<?echo '/acm'?>"><ul><li>ACM</li></ul></a>
+<a href="<?echo '/apm'?>"><ul><li>АПМ</li></ul></a>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\OpenServer\domains\cleancity\cleancity.clpprj">
 	<settings><PM_URL><![CDATA[http:///cleancity/]]></PM_URL><PM_HOME_URL><![CDATA[http:///cleancity/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\OpenServer\domains\cleancity\views\view_acm.php"/>
+		<file name="C:\OpenServer\domains\cleancity\js\js_script.js"/>
+		<file name="C:\OpenServer\domains\cleancity\controllers\controller_acm.php"/>
+		<file name="C:\OpenServer\domains\cleancity\controllers\controller_apm.php"/>
+		<file name="C:\OpenServer\domains\cleancity\css\default.css"/>
+		<file name="C:\OpenServer\domains\cleancity\views\view_topmenu.php"/>
 	</lastopfiles>
 	<errors version="5.3">
 	</errors>
@@ -8,38 +14,41 @@
 	</laravael><todoblock>
 	</todoblock>
 	<filescache>
-		<file name="C:\OpenServer\domains\cleancity\views\view_topmenu.php" crc="1475323872"/>
-		<file name="C:\OpenServer\domains\cleancity\views\view_template.php" crc="1475389108"/>
-		<file name="C:\OpenServer\domains\cleancity\views\view_header.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\views\view_footer.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\views\view_default.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\views\view_apm.php" crc="1475388982"/>
-		<file name="C:\OpenServer\domains\cleancity\views\view_acm.php" crc="1475334785"/>
-		<file name="C:\OpenServer\domains\cleancity\views\view_404.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\models\model_topmenu.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\models\model_header.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\models\model_footer.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\models\model_default.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\models\model_apm.php" crc="1475386665"/>
-		<file name="C:\OpenServer\domains\cleancity\models\model_acm.php" crc="1475386645"/>
-		<file name="C:\OpenServer\domains\cleancity\models\model_404.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\js\js_apm.js" crc="1475388697"/>
-		<file name="C:\OpenServer\domains\cleancity\js\jquery.min.js" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\css\default.css" crc="1475389098"/>
-		<file name="C:\OpenServer\domains\cleancity\core\view.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\core\route.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\core\model.php" crc="1475322392"/>
-		<file name="C:\OpenServer\domains\cleancity\core\func.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\core\controller.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\core\bootstrap.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\controllers\controller_topmenu.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\controllers\controller_header.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\controllers\controller_footer.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\controllers\controller_default.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\controllers\controller_apm.php" crc="1475387981"/>
-		<file name="C:\OpenServer\domains\cleancity\controllers\controller_acm.php" crc="1475379910"/>
-		<file name="C:\OpenServer\domains\cleancity\controllers\controller_404.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\index.php" crc="1475312229"/>
-		<file name="C:\OpenServer\domains\cleancity\.htaccess" crc="1475312229"/>
+		<file name="C:\OpenServer\domains\cleancity\views\view_topmenu.php" crc="1475497385"/>
+		<file name="C:\OpenServer\domains\cleancity\views\view_template.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\views\view_header.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\views\view_footer.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\views\view_default.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\views\view_apm.php" crc="1475494652"/>
+		<file name="C:\OpenServer\domains\cleancity\views\view_acm.php" crc="1475496726"/>
+		<file name="C:\OpenServer\domains\cleancity\views\view_about.php" crc="1475492667"/>
+		<file name="C:\OpenServer\domains\cleancity\views\view_404.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\models\model_topmenu.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\models\model_header.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\models\model_footer.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\models\model_default.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\models\model_apm.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\models\model_acm.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\models\model_about.php" crc="1475492705"/>
+		<file name="C:\OpenServer\domains\cleancity\models\model_404.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\js\js_script.js" crc="1475496706"/>
+		<file name="C:\OpenServer\domains\cleancity\js\jquery.min.js" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\css\default.css" crc="1475497425"/>
+		<file name="C:\OpenServer\domains\cleancity\core\view.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\core\route.php" crc="1475492527"/>
+		<file name="C:\OpenServer\domains\cleancity\core\model.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\core\func.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\core\controller.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\core\bootstrap.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\controllers\controller_topmenu.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\controllers\controller_header.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\controllers\controller_footer.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\controllers\controller_default.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\controllers\controller_apm.php" crc="1475496808"/>
+		<file name="C:\OpenServer\domains\cleancity\controllers\controller_acm.php" crc="1475496799"/>
+		<file name="C:\OpenServer\domains\cleancity\controllers\controller_about.php" crc="1475492693"/>
+		<file name="C:\OpenServer\domains\cleancity\controllers\controller_404.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\index.php" crc="1475470153"/>
+		<file name="C:\OpenServer\domains\cleancity\.htaccess" crc="1475470153"/>
 	</filescache>
 </project>
