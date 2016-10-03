@@ -1,215 +1,165 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    /*background: url(../images/body_bg.jpg) top center repeat-x,
-    linear-gradient(to bottom, rgb(240, 240, 240) 0%, rgb(240, 240, 240) 50%, rgb(194, 229, 233) 81%, rgb(100, 192, 212) 100%);*/
-    font-family: "Segoe UI";
-    color: #555555;
-    background-image: url('../images/background.jpg'),
-    -moz-linear-gradient(top, #2E0854 0%, #2E0854 100%);
-    background-image: url('../images/background.jpg'),
-    -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2E0854), color-stop(100%, #2E0854));
-    background-image: url('../images/currencyfon.jpg'),
-    linear-gradient(to bottom, rgb(240, 240, 240) 0%, rgb(240, 240, 240) 50%, rgb(194, 229, 233) 81%, rgb(100, 192, 212) 100%);
-
+	font-family: "Segoe UI";
+	color: #555555;
 }
 
-/*Определяем размер и цвет фона странички*/
 #page {
-    width: 1000px;
-    margin: auto;
-    /*    background: #f0f0f0;*/
-}
-
-
-/*Общие значения для заголовков всех уровней на сайте*/
-h1, h2, h3, h4, h5, h6,
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover
-h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-}
-
-/*Оформление всех ссылок на сайте*/
-a {
-    text-decoration: underline;
-    color: #004f64;
-}
-
-/*Непосещенные ссылки*/
-a:link {
-    color: #004f64;
-}
-
-/*Посещенные ссылки*/
-a:visited{
-    color: #3b98b0;
-}
-
-/*Ссылка при наведении*/
-a:hover{
-    text-decoration: none;
-    color: #fe1919;
+	width: 1000px;
+	margin: auto;
 }
 
 /*Оформление заголовков 1 уровня*/
 h1, h1 a, h1 a:link, h1 a:visited, h1 a:hover{
-    font-size: 20px;
-    color: #486AAA;
-    text-align: left;
-    border-bottom: 1px solid #a7a6aa;
-    margin-bottom: 5px;
-    display: inline-block;
-}
-
-/*Оформление заголовков 2 уровня*/
-h2, h2 a, h2 a:link, h2 a:visited, h2 a:hover{
-    font-size: 20px;
-    color: #486AAA;
-    text-align: left;
-    border-bottom: 1px solid #a7a6aa;
-    margin-bottom: 5px;
-    display: inline-block;
-}
-
-/*Оформление заголовков 3 уровня*/
-h3, h3 a, h3 a:link, h3 a:visited, h3 a:hover{
-    font-size: 16px;
-    color: #30b2cf;
-    text-align: left;
-}
-
-h4, h4 a, h4 a:link, h4 a:visited, h4 a:hover{
-    font: 20px "Segoe UI";
-    color: #000;
-    text-align: left;
-
-}
-
-/*Оформление заголовков 4-6 уровня. Используются редко, можно
-расписать оформление каждого уровня отдельно.*/
-h5, h5 a, h5 a:link, h5 a:visited, h5 a:hover,h6, h6 a, h6 a:link, h6 a:visited, h6 a:hover{
-    font-size: 14px;
-    font-weight: bolder;
-    color: #000;
-    text-align: left;
+	font-size: 20px;
+	color: #486AAA;
+	text-align: left;
+	border-bottom: 1px solid #a7a6aa;
+	margin-bottom: 5px;
+	display: inline-block;
 }
 
 ul {
-    margin-left: 20px;
+	margin-left: 20px;
 }
 
 #band {
-    background-color: #f0b251;
-    color: #fff;
-    height: 80px;
-    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+	background-color: #e4fffe;
+	color: #fff;
+	height: 150px;
+	-webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
 }
 
 #top{
-    width: 1000px;
-    margin: auto;
-}
-
-#topmenu {
-    font: bold 16px Arial, Helvetica, sans-serif;
-    text-align: center;
-    height: 48px;
-    line-height: 48px;
-    background: #fff;
-    background-color: #fff;
-    color: rgba(255, 255, 255, 0.5);
-    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
-    text-transform: uppercase;
-}
-
-#topmenu ul {
-    display: inline-block;
-    left: 50%;
-}
-
-#topmenu ul li {
-    list-style: none;
-    margin-left: -2px;
-}
-
-#topmenu ul li a {
-    display: block;
-    padding: 0px 30px;
-    text-decoration: none;
-    color: gray;
-}
-
-#topmenu a:hover {
-    color: #f0b251;
-}
-
-
-#auth {
-    /*display: inline-block;*/
-    float: right;
-    cursor: pointer;
+	width: 1000px;
+	margin: auto;
 }
 
 #logo {
-    margin-top: 10px;
-    border: 1px solid;
-    width: 58px;
-    height: 58px;
-    float: left;
-    background-image: url('../images/icon1024.png');
-    background-position: center center;
+	margin-top: 40px;
+	width: 200px;
+	height: 75px;
+	float: left;
+	background-image: url('../images/logo.png') ;
+	background-size: contain  ;
+	background-position: center center;
 }
 
 #header {
-    line-height: 80px;
-    width: 898px;
-    margin: 0px;
-    float: left;
-    text-align: center;
+	line-height: 150px;
+	width: 800px;
+	margin: 0px;
+	float: left;
+	text-align: center;
 }
 
 #header h1 {
-    text-transform: uppercase;
-    font-size: 50px;
-    color: #002e52;    
-    text-align: center;
-    font-weight: bold;    
-    border-bottom: 0;
-    margin-bottom: 0;
-    display: block;   
+	font-size: 50px;
+	color: #002e52;    
+	text-align: center;
+	font-weight: bold;    
+	border-bottom: 0;
+	margin-bottom: 0;
+	display: block;   
 }
 
 #content {
-    margin-top: 30px;
-    float: left;
-    height: auto;
-    width: 100%;
-    padding: 25px 0px;
-    text-align: center;
-    background: #fff;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+	margin-top: 30px;
+	float: left;
+	height: auto;
+	width: 100%;
+	padding: 25px 0px;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
 }
 
 #footer
 {
-    width: 100%;
-    float: left;
-    padding: 25px 0px;
-    background: #f7f7f7;
-    text-align: center;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+	background: #f7f7f7;
+	text-align: center;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
 }
 
-.add_changeoffice, .view_changeoffice {
-    margin: auto;
+#topmenu {
+	font: bold 16px Arial, Helvetica, sans-serif;
+	text-align: center;
+	height: 150px;
+	line-height: 48px;
+	background: #fff;
+	background-color: #fff;
+	color: rgba(255, 255, 255, 0.5);
+	-webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.06);
+	text-transform: uppercase;
+}
+
+#topmenu ul {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+#topmenu ul li {
+	list-style: none;
+	margin-left: -2px;
+}
+
+#topmenu ul li a {
+	border-top: 1px solid #96d1f8; 
+	background: #0078a5; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5)); 
+	background: -moz-linear-gradient(top, #00adee, #0078a5); 
+	background: -ms-linear-gradient(top, #00adee, #0078a5); 
+	background: -o-linear-gradient(top, #00adee, #0078a5); 
+	padding: 20px 40px; 
+	-webkit-border-radius: 60px; 
+	-moz-border-radius: 60px; 
+	border-radius: 60px; 
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2); 
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2); 
+	box-shadow: 0 1px 2px rgba(0,0,0,.2); 
+	text-shadow: rgba(0,0,0,.4) 0 1px 0; 
+	color: #d9eef7; 
+	font-size: 24px; 
+	font-family: Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	vertical-align: middle;  
+}
+
+#topmenu a:hover {
+	color: #dbdbdb; 
+	background: #ff0037; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff7b08), to(#ff0037)); 
+	background: -moz-linear-gradient(top, #ff7b08, #ff0037); 
+	background: -ms-linear-gradient(top, #ff7b08, #ff0037); 
+	background: -o-linear-gradient(top, #ff7b08, #ff0037); }
+}
+
+#topmenu a:active { 
+	border-top-color: #ffffff; 
+	background: #ffffff; 
+}
+
+img.fade {
+	margin-left: 40px;
+}
+
+.fade {
+	display: none;
+}
+
+button.fade {
+	width: 500px;
+	height: 50px;
+	margin-bottom: 50px;
 }
