@@ -6,7 +6,7 @@
 body {
 	font-family: "Segoe UI";
 	color: #555555;
-	background-image: url('../images/bg_city.jpg');
+	background-image: url('../images/bg_city2.jpg');
 }
 
 #page {
@@ -43,9 +43,9 @@ ul {
 }
 
 #logo {
-	margin-top: 40px;
-	width: 200px;
-	height: 75px;
+	margin-top: 5px;
+	width: 352px;
+	height: 136px;
 	float: left;
 	background-image: url('../images/logo.png') ;
 	background-size: contain  ;
@@ -54,14 +54,14 @@ ul {
 
 #header {
 	line-height: 150px;
-	width: 800px;
+	width: 647px;
 	margin: 0px;
 	float: left;
 	text-align: center;
 }
 
 #header h1 {
-	font-size: 50px;
+	font-size: 80px;
 	color: #002e52;    
 	text-align: center;
 	font-weight: bold;    
@@ -96,8 +96,7 @@ ul {
 	text-align: center;
 	height: 150px;
 	line-height: 48px;
-	background: #fff;
-	background-color: #fff;
+/*	background-image: linear-gradient(#000, #e4fffe);*/
 	color: rgba(255, 255, 255, 0.5);
 	-webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
@@ -106,30 +105,24 @@ ul {
 }
 
 #topmenu ul {
-	width: 250px;
-	margin-top: 50px;
-	display: inline-block;
-	
+	margin-top: 35px;
+	display: inline-block;	
 }
 
 #topmenu ul li {
-	width: 250px;
+	width: 200px;
 	list-style: none;
-	margin-left: -2px;
 	
-}
-
-#topmenu ul li a {
 	border-top: 1px solid #96d1f8; 
 	background: #0078a5; 
 	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5)); 
 	background: -moz-linear-gradient(top, #00adee, #0078a5); 
 	background: -ms-linear-gradient(top, #00adee, #0078a5); 
 	background: -o-linear-gradient(top, #00adee, #0078a5); 
-	padding: 20px 40px; 
-	-webkit-border-radius: 60px; 
-	-moz-border-radius: 60px; 
-	border-radius: 60px; 
+	padding: 10px 20px; 
+	-webkit-border-radius: 40px; 
+	-moz-border-radius: 40px; 
+	border-radius: 40px; 
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2); 
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2); 
 	box-shadow: 0 1px 2px rgba(0,0,0,.2); 
@@ -139,36 +132,64 @@ ul {
 	font-family: Arial, Helvetica, sans-serif; 
 	text-decoration: none; 
 	vertical-align: middle;
+	
 }
 
-#topmenu a:hover {
+#topmenu ul li:hover {
 	color: #dbdbdb; 
 	background: #ff0037; 
 	background: -webkit-gradient(linear, left top, left bottom, from(#ff7b08), to(#ff0037)); 
 	background: -moz-linear-gradient(top, #ff7b08, #ff0037); 
 	background: -ms-linear-gradient(top, #ff7b08, #ff0037); 
-	background: -o-linear-gradient(top, #ff7b08, #ff0037); }
+	background: -o-linear-gradient(top, #ff7b08, #ff0037); 
 }
 
-#topmenu a:active { 
-	border-top-color: #ffffff; 
-	background: #ffffff; 
-}
 
 img.fade {
-	margin-left: 40px;
+	margin-left: 60px;
 }
 
-/*.fade {
+.fade {
 	display: none;
-}*/
+}
 
 button.fade {
 	width: 500px;
 	height: 50px;
 	margin-bottom: 10px;
+	font-size:30px;
+	border-radius: 10px;	
+}
+
+#button1 {
+	background-color: red;
+}
+
+#button2 {
+	background-color: green;
+}
+
+#button3 {
+	background-color: blue;
+}
+
+#button4 {
+	background-color: yellow;
+}
+
+#button5 {
+	background-color: #fe01f1;
+}
+
+#infobutton1, #infobutton2, #infobutton3, #infobutton4, #infobutton5  {
+	display: none;
+	
 }
 
 #infobutton1 {
-	display: none;
+	background: #FFF;
+}
+
+.info {
+	margin-bottom: 20px;
 }
