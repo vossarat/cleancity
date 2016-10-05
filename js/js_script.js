@@ -36,11 +36,9 @@ $(document).ready(function(){
             });
 
         function slide_hide() {
-            $("#infobutton1").slideUp("slow");
-            $("#infobutton2").slideUp("slow");
-            $("#infobutton3").slideUp("slow");
-            $("#infobutton4").slideUp("slow");
-            $("#infobutton5").slideUp("slow");
+        	for(var i = 1;i<=5;i++) {
+				$("#infobutton"+i).slideUp("slow");
+			}
         };
 
 

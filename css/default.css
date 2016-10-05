@@ -4,6 +4,7 @@
 }
 
 body {
+	font-size: 20px;
 	font-family: "Segoe UI";
 	color: #555555;
 	background-image: url('../images/bg_city2.jpg');
@@ -13,6 +14,10 @@ body {
 	width: 1000px;
 	margin: auto;
 }
+
+/*#page p {
+	margin: 20px;
+}*/
 
 /*Оформление заголовков 1 уровня*/
 h1, h1 a, h1 a:link, h1 a:visited, h1 a:hover{
